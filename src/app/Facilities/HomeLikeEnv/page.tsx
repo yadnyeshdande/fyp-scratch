@@ -11,7 +11,12 @@ const HomeEnvironmentPage: React.FC = () => {
           <p className="text-gray-700 mb-4 md:text-lg">
             At VJTI Hostel, we understand the importance of feeling at home, even when you're away from home. That's why we've created a warm and welcoming environment that fosters a strong sense of community among our residents.
           </p>
-          {/* Add the rest of the content here */}
+          <p className="text-gray-700 mb-4 md:text-lg">
+            Beyond your room, our hostel offers a variety of common areas where you can socialize, study, or simply unwind. Our lounges are perfect for catching up with friends, playing games, or watching movies. Our study rooms provide a quiet and conducive environment for focused studying or group work.
+          </p>
+          <p className="text-gray-700 mb-4 md:text-lg">
+            We also organize regular community events and activities to help you connect with your fellow residents and create lasting memories. From movie nights to cultural celebrations, there's always something exciting happening at [Hostel Name].
+          </p>
         </div>
         <div className="md:w-1/2 md:pl-4">
           <Image

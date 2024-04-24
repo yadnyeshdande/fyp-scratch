@@ -11,7 +11,18 @@ const HighSecurityPage: React.FC = () => {
           <p className="text-gray-700 mb-4 md:text-lg">
             At VJTI Hostel, we prioritize the safety and security of our residents above all else. That's why we've implemented a comprehensive security system to ensure that you feel safe and protected at all times.
           </p>
-          {/* Add the rest of the content here */}
+          <p className="text-gray-700 mb-4 md:text-lg">
+            Our hostel is equipped with 24/7 surveillance cameras strategically placed throughout the premises, allowing our security team to monitor and respond to any potential threats or incidents promptly.
+          </p>
+          <p className="text-gray-700 mb-4 md:text-lg">
+            Access to the hostel is strictly controlled, with a secure entry system that requires residents to present their personal hostel ID cards for entry and exit. This ensures that only authorized individuals can enter the premises, providing an added layer of security.
+          </p>
+          <p className="text-gray-700 mb-4 md:text-lg">
+            Our dedicated security personnel are trained professionals who are always on duty, conducting regular patrols and maintaining a vigilant presence. They are readily available to assist you with any security concerns or emergencies that may arise.
+          </p>
+          <p className="text-gray-700 mb-4 md:text-lg">
+            In addition to our physical security measures, we also prioritize the emotional and mental well-being of our residents. Our team is trained to handle sensitive situations with care and discretion, ensuring that you feel supported and protected at all times.
+          </p>
         </div>
         <div className="md:w-1/2 md:pl-4">
           <Image
