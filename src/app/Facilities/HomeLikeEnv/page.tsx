@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-// import homeEnvironmentImage from '../../public/home-environment.jpg';
 
 const HomeEnvironmentPage: React.FC = () => {
   return (

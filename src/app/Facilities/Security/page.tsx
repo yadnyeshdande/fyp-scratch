@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-// import highSecurityImage from '../../public/high-security.jpg';
 
 const HighSecurityPage: React.FC = () => {
   return (

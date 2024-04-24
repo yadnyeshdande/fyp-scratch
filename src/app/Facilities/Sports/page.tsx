@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-// import sportsFacilitiesImage from '../../public/sports-facilities.jpg';
 
 const SportsFacilitiesPage: React.FC = () => {
   return (
