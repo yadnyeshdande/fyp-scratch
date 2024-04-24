@@ -7,7 +7,7 @@ function Footer() {
         <div className=" max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8">
             <div className="">
                 <h1 className="text-3xl">About Us</h1>
-                <p>Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.</p>
+                <p>We strive to provide a safe, comfortable, and nurturing environment for students seeking a home away from home.</p>
             </div>
             <div className="">
                 <h1 className="text-3xl ">Quick Links</h1>
