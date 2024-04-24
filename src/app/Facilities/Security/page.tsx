@@ -26,7 +26,7 @@ const HighSecurityPage: React.FC = () => {
         </div>
         <div className="md:w-1/2 md:pl-4">
           <Image
-            src={"/"}
+            src={"/security.jpg"}
             width={500}
             height={500}
             alt="High Security"

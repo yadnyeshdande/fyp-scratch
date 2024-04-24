@@ -20,7 +20,7 @@ const HomeEnvironmentPage: React.FC = () => {
         </div>
         <div className="md:w-1/2 md:pl-4">
           <Image
-            src={"/"}
+            src={"/hc.png"}
             width={500}
             height={500}
             alt="Home Like Environment"
