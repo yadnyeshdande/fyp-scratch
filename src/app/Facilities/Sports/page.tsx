@@ -32,7 +32,14 @@ const SportsFacilitiesPage: React.FC = () => {
             width={500}
             height={500}
             alt="Sports Facilities"
-            className="w-full h-auto rounded-lg shadow-lg"
+            className="w-full h-auto rounded-lg shadow-lg mx-4 my-5"
+          />
+          <Image
+            src={"/basketBall.jpg"}
+            width={500}
+            height={500}
+            alt="Sports Facilities"
+            className="w-full h-auto rounded-lg shadow-lg mx-4 my-5"
           />
         </div>
       </div>
