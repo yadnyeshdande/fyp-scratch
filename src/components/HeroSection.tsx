@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import Shery from "sheryjs";
 
 const HeroSection = () => {
   return (
@@ -20,6 +19,6 @@ const HeroSection = () => {
     </div>
   )
 }
-//UI SHERIYAN.JS TAKAYACHE BAKI AHE
+//UI SHERIYAN.JS TAKAYACHE BAKI AHE 
 
 export default HeroSection

@@ -1,3 +1,4 @@
+import FacilityBox from '@/components/FacilityBox'
 import Link from 'next/link'
 import React from 'react'
 
@@ -16,7 +17,8 @@ const Facilities = () => {
               At VJTI Hostel, we believe in promoting a healthy and active lifestyle for our residents. That's why we offer access to a wide range of sports facilities, gyms, and grounds/courts, ensuring that you have ample opportunities to engage in physical activities and stay fit.
             </p>
         </div>
-        <div className='fimages width-full px-60 py-10 border-spacing-2 border-red-300 bg-slate-500 h-screen mt-3.5 flex justify-between '>
+        <FacilityBox />
+        {/* <div className='fimages width-full px-60 py-10 border-spacing-2 border-red-300 bg-slate-500 h-screen mt-3.5 flex justify-between '>
             
             <div className='fleft w-5/12 h-full border-1px-solid-blue overflow-auto'>
               <div className="fleftelm w-full h-full flex flex-col justify-center">
@@ -39,10 +41,10 @@ const Facilities = () => {
             <div className='fright  h-full flex items-center justify-end'>
               <div className='images w-11/12 h-full flex bg-zinc-950 items-start'></div>
             </div>
-            {/* <div className='fright  h-full flex items-center justify-end'>
+            <div className='fright  h-full flex items-center justify-end'>
               <div className='images w-11/12 h-full flex bg-white items-start'></div>
-            </div> */}
-        </div>
+            </div>
+        </div> */}
     </div>
   )
 }
