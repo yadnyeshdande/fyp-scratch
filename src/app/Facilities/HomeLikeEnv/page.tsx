@@ -14,7 +14,7 @@ const HomeEnvironmentPage: React.FC = () => {
             Beyond your room, our hostel offers a variety of common areas where you can socialize, study, or simply unwind. Our lounges are perfect for catching up with friends, playing games, or watching movies. Our study rooms provide a quiet and conducive environment for focused studying or group work.
           </p>
           <p className="text-gray-700 mb-4 md:text-lg">
-            We also organize regular community events and activities to help you connect with your fellow residents and create lasting memories. From movie nights to cultural celebrations, there's always something exciting happening at [Hostel Name].
+            We also organize regular community events and activities to help you connect with your fellow residents and create lasting memories. From movie nights to cultural celebrations, there's always something exciting happening at VJTI Hostel.
           </p>
         </div>
         <div className="md:w-1/2 md:pl-4">
