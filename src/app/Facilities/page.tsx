@@ -58,16 +58,16 @@ import React from 'react';
 
 const Facilities = () => {
   return (
-    <div className="facilities">
+    <div className="facilities min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.2]">
       <div className="fheading px-4 py-8 md:px-10vw md:py-10vw flex flex-col items-center justify-center text-center">
-        <h1 className="text-4xl md:text-6xl">Facilities</h1>
-        <p className="text-gray-700 mb-4 md:text-lg">
+        <h1 className="text-4xl md:text-6xl lg:mt-20 text-white text-stroke-thin text-stroke-amber-400">Facilities</h1>
+        <p className="text-gray-400 mb-4 md:text-lg">
           At VJTI Hostel, we understand the importance of feeling at home, even when you're away from home. That's why we've created a warm and welcoming environment that fosters a strong sense of community among our residents.
         </p>
-        <p className="text-gray-700 mb-4 md:text-lg">
+        <p className="text-gray-400 mb-4 md:text-lg">
           At VJTI Hostel, we prioritize the safety and security of our residents above all else. That's why we've implemented a comprehensive security system to ensure that you feel safe and protected at all times.
         </p>
-        <p className="text-gray-700 mb-4 md:text-lg">
+        <p className="text-gray-400 mb-4 md:text-lg">
           At VJTI Hostel, we believe in promoting a healthy and active lifestyle for our residents. That's why we offer access to a wide range of sports facilities, gyms, and grounds/courts, ensuring that you have ample opportunities to engage in physical activities and stay fit.
         </p>
       </div>

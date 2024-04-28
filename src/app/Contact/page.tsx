@@ -1,76 +1,102 @@
 // pages/contact.tsx
-
 import React from 'react';
 
 const ContactPage: React.FC = () => {
   return (
-    <div className="container mx-auto px-32 py-40">
-      <h1 className="text-3xl font-bold mb-6 md:text-4xl">Contact Us</h1>
-      <div className="md:flex md:flex-row">
-        <div className="md:w-1/2 md:pr-4 mb-8 md:mb-0">
-          <h2 className="text-2xl font-bold mb-4 md:text-3xl">Get in Touch</h2>
-          <p className="text-gray-700 mb-4 md:text-lg">
-            We'd love to hear from you! Whether you have questions, feedback, or inquiries, our team is here to assist you. Feel free to reach out to us using the contact form or the provided contact information.
-          </p>
-          <form>
-            <div className="mb-4">
-              <label htmlFor="name" className="block text-gray-700 font-bold mb-2">
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                placeholder="Enter your name"
-              />
+    <section className="text-gray-600 body-font relative ">
+      <div className="container mx-auto flex flex-wrap sm:flex-nowrap py-24 px-5">
+        <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+          <iframe
+            width="100%"
+            height="100%"
+            className="absolute inset-0"
+            frameBorder="0"
+            title="map"
+            // marginHeight="0"
+            // marginWidth="0"
+            scrolling="no"
+            src="https://maps.google.com/maps?q=2VC4%2BVCQ,%20H%20R%20Mahajani%20Rd,%20Matunga%20East,%20Mumbai,%20Maharashtra%20400019&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            style={{ filter: 'grayscale(1) contrast(1.2) opacity(0.4)' }}
+          ></iframe>
+          <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+            <div className="lg:w-1/2 px-6">
+              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
+                ADDRESS
+              </h2>
+              <p className="mt-1">
+                2VC4+VCQ, H R Mahajani Rd, Matunga East, Mumbai, Maharashtra
+                400019
+              </p>
             </div>
-            <div className="mb-4">
-              <label htmlFor="email" className="block text-gray-700 font-bold mb-2">
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                placeholder="Enter your email"
-              />
+            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
+              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
+                EMAIL
+              </h2>
+              <a className="text-indigo-500 leading-relaxed">
+                contact@hostel.com
+              </a>
+              <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
+                PHONE
+              </h2>
+              <p className="leading-relaxed">+91 1234567890</p>
             </div>
-            <div className="mb-4">
-              <label htmlFor="message" className="block text-gray-700 font-bold mb-2">
-                Message
-              </label>
-              <textarea
-                id="message"
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                rows={5}
-                placeholder="Enter your message"
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors duration-300"
-            >
-              Submit
-            </button>
-          </form>
+          </div>
         </div>
-        <div className="md:w-1/2 md:pl-4">
-          <h2 className="text-2xl font-bold mb-4 md:text-3xl">Contact Information</h2>
-          <div className="mb-4">
-            <h3 className="text-lg font-bold mb-2">Address</h3>
-            <p className="text-gray-700">H R Mahajani Rd, Matunga, Mumbai, Maharashtra 400019</p>
-          </div>
-          <div className="mb-4">
-            <h3 className="text-lg font-bold mb-2">Phone</h3>
-            <p className="text-gray-700">0123456789</p>
-          </div>
-          <div className="mb-4">
-            <h3 className="text-lg font-bold mb-2">Email</h3>
-            <p className="text-gray-700">hostel@vjti.ac.in</p>
+        <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col h-full mt-3 md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+          <div className="bg-gray-100 rounded-lg p-8  flex flex-col md:ml-auto w-full mt-10 md:mt-0  ">
+            <h2 className="text-gray-900 text-lg font-medium title-font mb-5">
+              Leave a Message
+            </h2>
+            <form>
+              <div className="relative mb-4">
+                <label
+                  htmlFor="name"
+                  className="leading-7 text-sm text-gray-600"
+                >
+                  Name
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                />
+              </div>
+              <div className="relative mb-4">
+                <label
+                  htmlFor="email"
+                  className="leading-7 text-sm text-gray-600"
+                >
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                />
+              </div>
+              <div className="relative mb-4">
+                <label
+                  htmlFor="message"
+                  className="leading-7 text-sm text-gray-600"
+                >
+                  Message
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                ></textarea>
+              </div>
+              <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                Submit
+              </button>
+            </form>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -62,10 +62,10 @@ function Hgallery() {
     <div className="hgallery px-4 py-8 md:px-40">
       <div className="font-bold flex flex-col items-center">
         <div className="font-black font-sans text-4xl md:text-7xl flex gap-5 text-white text-stroke text-cyan-indigo-600 text-center mt-5">
-          <h1 className="text-4xl md:text-6xl hover:text-black text-white transition-colors duration-300">
+          <h1 className="text-4xl md:text-6xl hover:text-orange-400  text-white transition-colors duration-300">
             Hosteller's
           </h1>
-          <h1 className="text-4xl md:text-6xl hover:text-black font-sans text-white transition-colors duration-300">
+          <h1 className="text-4xl md:text-6xl hover:text-orange-400  font-sans text-white transition-colors duration-300">
             Gallery
           </h1>
         </div>
